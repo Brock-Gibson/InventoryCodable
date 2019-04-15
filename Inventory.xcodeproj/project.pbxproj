@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		5BDEC05D2264D0A000C1C5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC05C2264D0A000C1C5A4 /* AppDelegate.swift */; };
-		5BDEC05F2264D0A000C1C5A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC05E2264D0A000C1C5A4 /* ViewController.swift */; };
+		5BDEC05F2264D0A000C1C5A4 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC05E2264D0A000C1C5A4 /* InventoryViewController.swift */; };
 		5BDEC0622264D0A000C1C5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDEC0602264D0A000C1C5A4 /* Main.storyboard */; };
 		5BDEC0652264D0A000C1C5A4 /* Inventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC0632264D0A000C1C5A4 /* Inventory.xcdatamodeld */; };
 		5BDEC0672264D0A100C1C5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BDEC0662264D0A100C1C5A4 /* Assets.xcassets */; };
 		5BDEC06A2264D0A100C1C5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BDEC0682264D0A100C1C5A4 /* LaunchScreen.storyboard */; };
+		5BDEC0722264D19B00C1C5A4 /* inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = 5BDEC0712264D19B00C1C5A4 /* inventory.json */; };
+		5BDEC0742264D9E900C1C5A4 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC0732264D9E900C1C5A4 /* Inventory.swift */; };
+		5BDEC0762264DAB700C1C5A4 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDEC0752264DAB700C1C5A4 /* JSONLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5BDEC0592264D0A000C1C5A4 /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BDEC05C2264D0A000C1C5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BDEC05E2264D0A000C1C5A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BDEC05E2264D0A000C1C5A4 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
 		5BDEC0612264D0A000C1C5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BDEC0642264D0A000C1C5A4 /* Inventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Inventory.xcdatamodel; sourceTree = "<group>"; };
 		5BDEC0662264D0A100C1C5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BDEC0692264D0A100C1C5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BDEC06B2264D0A100C1C5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDEC0712264D19B00C1C5A4 /* inventory.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = inventory.json; sourceTree = "<group>"; };
+		5BDEC0732264D9E900C1C5A4 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		5BDEC0752264DAB700C1C5A4 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				5BDEC05C2264D0A000C1C5A4 /* AppDelegate.swift */,
-				5BDEC05E2264D0A000C1C5A4 /* ViewController.swift */,
+				5BDEC05E2264D0A000C1C5A4 /* InventoryViewController.swift */,
 				5BDEC0602264D0A000C1C5A4 /* Main.storyboard */,
 				5BDEC0662264D0A100C1C5A4 /* Assets.xcassets */,
 				5BDEC0682264D0A100C1C5A4 /* LaunchScreen.storyboard */,
 				5BDEC06B2264D0A100C1C5A4 /* Info.plist */,
 				5BDEC0632264D0A000C1C5A4 /* Inventory.xcdatamodeld */,
+				5BDEC0712264D19B00C1C5A4 /* inventory.json */,
+				5BDEC0732264D9E900C1C5A4 /* Inventory.swift */,
+				5BDEC0752264DAB700C1C5A4 /* JSONLoader.swift */,
 			);
 			path = Inventory;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDEC0722264D19B00C1C5A4 /* inventory.json in Resources */,
 				5BDEC06A2264D0A100C1C5A4 /* LaunchScreen.storyboard in Resources */,
 				5BDEC0672264D0A100C1C5A4 /* Assets.xcassets in Resources */,
 				5BDEC0622264D0A000C1C5A4 /* Main.storyboard in Resources */,
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDEC0762264DAB700C1C5A4 /* JSONLoader.swift in Sources */,
+				5BDEC0742264D9E900C1C5A4 /* Inventory.swift in Sources */,
 				5BDEC0652264D0A000C1C5A4 /* Inventory.xcdatamodeld in Sources */,
-				5BDEC05F2264D0A000C1C5A4 /* ViewController.swift in Sources */,
+				5BDEC05F2264D0A000C1C5A4 /* InventoryViewController.swift in Sources */,
 				5BDEC05D2264D0A000C1C5A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
